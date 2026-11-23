@@ -1,0 +1,53 @@
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# ==========================================
+# ML Models & Training Outputs (Share via Drive/Roboflow)
+# ==========================================
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+runs/
+weights/
+datasets/
+dataset_captures/
+
+# ==========================================
+# Runtime Captures, Logs & Local Runtime Configs
+# ==========================================
+captures/
+logs/
+*.csv
+*.log
+*.sqlite
+*.db
+
+# Keep config folder structure, ignore local runtime caches
+config/preset_cache.json
+config/roi_profile.json
+
+# ==========================================
+# IDE, OS & Secrets
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+*.pem
+*.key
